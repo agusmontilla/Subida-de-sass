@@ -1,0 +1,42 @@
+.backgroundSectionN{
+	background-color: $keyColor;
+	margin: 20px 0px;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.textCenter{
+	text-align: $textCenter;
+}
+.boxArticle{
+	width: 40%;
+	margin: 0px 15px ;
+	padding: 40px 30px;
+	border:solid 1px  $black;
+	overflow: none;	
+}
+.backgroundSectionP{
+	background-image: url(../imagenes/fondomadera.jpg) ;
+	background-size: cover;
+	padding: 20px 0;
+	margin: 20px 0px;
+}
+.articleDestacados{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.tamañoImagen{
+	width: 220px;
+	height: 300px;
+}
+.tamañoImagenSmir{
+	width: 220px;
+	height: 300px;
+	margin-left: 50px;
+}
+.textSizeX{
+	font-size: $textXl;
+}
