@@ -1,0 +1,43 @@
+.widthProducto{	
+	width: 25%;
+	margin-top: 40px ;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	margin: 25px;
+	width: 25%;
+	display: inline-block;
+}
+.paddingFigure{
+	@extend .widthProducto;
+	border: double 2px $black;
+}
+
+
+@mixin texto($tamaño, $centrado, $fontweight, $background){
+	font-size: $tamaño;
+	color: $black;
+	text-align: $centrado;
+	font-weight: $fontweight;
+	background-color: $background;
+}
+h1{
+	@include texto(4rem, center , 500, darkgoldenrod);
+}
+
+h2{
+	@include texto(3rem, center, 400, none)
+}
+
+
+$paleta:(
+	"uno": palegoldenrod,
+	"dos":darkgoldenrod,
+	"tres":#D9CA9C,
+	"cuatro": black,
+	"cinco": white,
+	);
+
+
+.backgoundPromos{
+	background-color: map-get($map:$paleta, $key:"cinco");
+}

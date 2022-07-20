@@ -40,3 +40,40 @@
 .textSizeX{
 	font-size: $textXl;
 }
+
+
+
+
+
+#paddingProductos{
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+.marginSection{
+	margin: 10px; 
+	padding-bottom: 50px;
+}
+.display{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.imageProductos{
+	width: 220px;
+	height: 280px;
+}
+#paddingPromociones{
+	padding-top: 70px;
+}
+.sectionmargin{
+	padding-left: 150px;
+}
+
+.imagePromociones{
+	width: 220px;
+	height: 280px;
+}
+.textSizeM{
+	font-size: $textLg;
+}
